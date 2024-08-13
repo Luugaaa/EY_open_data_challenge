@@ -23,7 +23,7 @@ The second model takes the altered images produced by Model 1 and classifies the
 
 To ensure effective communication between Model 1 and Model 2, the images are altered using an intermediate code. This code changes the hue of regions within the image based on their classification as either residential or commercial zones.
 
-![Image Alteration](link_to_image) 
+![Image Alteration](https://github.com/Luugaaa/EY_open_data_challenge/blob/main/altered_image.png) 
 *Figure 1: Example of an image after alteration by Model 1.*
 
 ## Limitations and Future Perspectives
@@ -39,5 +39,5 @@ Despite the promising approach, there are several limitations and areas for impr
 
 The model was designed to perform well with limited training data, focusing on suburban areas. Although the small dataset was a significant constraint, the model managed to function, achieving a Mean Average Precision (MAP) of 0.23 on the test data.
 
-![Test Image Identification](link_to_image)
+![Test Image Identification](https://github.com/Luugaaa/EY_open_data_challenge/blob/main/result_image.png)
 *Figure 2: Example of building identification on a test image.*
